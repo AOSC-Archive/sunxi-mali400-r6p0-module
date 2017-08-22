@@ -15,6 +15,7 @@
 extern "C" {
 #endif
 
+#include <linux/version.h>
 #include <linux/cdev.h>     /* character device definitions */
 #include <linux/idr.h>
 #include <linux/rbtree.h>
