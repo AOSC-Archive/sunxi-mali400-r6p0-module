@@ -117,9 +117,7 @@ struct resource *mali_create_450mp4_resources(unsigned long address,
 static const struct of_device_id mali_dt_ids[] = {
 	{ .compatible = "allwinner,sun4i-a10-mali" },
 	{ .compatible = "allwinner,sun7i-a20-mali" },
-	{ .compatible = "allwinner,sun50i-h5-mali" },
 	{ .compatible = "arm,mali-400" },
-	{ .compatible = "arm,mali-450" },
 	{ /* sentinel */ },
 };
 MODULE_DEVICE_TABLE(of, mali_dt_ids);
